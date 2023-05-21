@@ -1,2 +1,1 @@
-# IT-Step-Lesson-Materials
-HTML + CSS
+# HTML + CSS
