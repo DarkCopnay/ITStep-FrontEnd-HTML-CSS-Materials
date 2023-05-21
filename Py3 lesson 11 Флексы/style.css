@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    display: flex;
+    border: 1px solid black;
+    /* flex-direction: row-reverse; */
+    /* align-items: center; */
+    justify-content: center;
+    /* height: 500px; */
+    flex-wrap: wrap;
+}
+
+.wrapper div {
+    background-color: blueviolet;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+}

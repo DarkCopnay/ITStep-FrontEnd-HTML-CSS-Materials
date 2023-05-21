@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Document</title>
+    </head>
+    <body>
+        <h3>Let's search something</h3>
+        <form action="/search" method="POST">
+            <ul>
+                <li>
+                    <label for="uname">First Name:</label>
+                    <input
+                        type="text"
+                        id="uname"
+                        name="userName"
+                        placeholder="Name" />
+                </li>
+                <li>
+                    <label for="sname">Last Name:</label>
+                    <input
+                        type="text"
+                        id="sname"
+                        name="userName"
+                        placeholder="Name" />
+                </li>
+                <li>
+                    <label for="password">Password:</label>
+                    <input
+                        type="password"
+                        id="password"
+                        name="userPassword"
+                        placeholder="Password" />
+                </li>
+                <li>
+                    <label for="email">Email:</label>
+                    <input
+                        id="email"
+                        type="email"
+                        name="userEmail"
+                        placeholder="Email" />
+                </li>
+                <li>
+                    <label class="Label-news" for="news">
+                        <span>Subscribe</span>
+                        <input
+                            class="checkbox"
+                            type="checkbox"
+                            name="newsCheck"
+                            id="news" />
+                    </label>
+                </li>
+                <li>
+                    <p>Gender</p>
+                    <ul class="Gender">
+                        <li>
+                            <input
+                                type="radio"
+                                value="male"
+                                id="gender1"
+                                name="sex" />
+                            <label for="gender1">Male</label>
+                        </li>
+                        <li>
+                            <input
+                                type="radio"
+                                value="female"
+                                id="gender2"
+                                name="sex" />
+                            <label for="gender2">Female</label>
+                        </li>
+                        <li>
+                            <input
+                                type="radio"
+                                value="other"
+                                id="gender3"
+                                name="sex" />
+                            <label for="gender3">Other</label>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <label for="message">Message:</label>
+                    <textarea
+                        name="userMessage"
+                        id="message"
+                        placeholder="Message"></textarea>
+                </li>
+                <li>
+                    <input class="btn" type="submit" value="Search" />
+                </li>
+            </ul>
+        </form>
+    </body>
+</html>

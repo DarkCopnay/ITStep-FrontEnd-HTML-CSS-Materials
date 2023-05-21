@@ -1,0 +1,240 @@
+li {
+    list-style: none;
+}
+
+/* .grid-container {
+    display: grid;
+    padding: 15px 30px;
+    border-radius: 5px;
+    background-color: #0d233d;
+    color: #fff;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid-container > li {
+    margin: 10px 0;
+    padding: 0.3rem;
+    border-radius: 3px;
+    font-size: 130%;
+    font-weight: bold;
+}
+
+.item-1 {
+    background-color: #aa2f26;
+}
+
+.item-2 {
+    background-color: #01796f;
+}
+
+.item-3 {
+    background-color: #1769aa;
+} */
+
+/* .container {
+    padding: 30px;
+    border-radius: 5px;
+    background-color: #0d233d;
+    color: #fff;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container > div {
+    padding: 0.3em;
+    border-radius: 3px;
+    font-size: 130%;
+    font-weight: bold;
+}
+
+.grid-container {
+    display: grid;
+    background-color: #b2a429;
+}
+
+.inline-grid-container {
+    display: inline-grid;
+    background-color: #aa2f26;
+}
+
+p {
+    color: #f5f8f949;
+} */
+
+/* .grid {
+    padding: 20px;
+    background-color: #0d243f;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid; */
+/* grid-template-columns: 100px 10em 30%; */
+/* grid-template-rows: 10em 100px 100px; */
+/* grid-gap: 10px; */
+/* grid-template-columns: repeat(2, 1fr 2fr); */
+/* } */
+
+/* .grid li {
+    padding: 0.3em;
+    border-radius: 3px;
+    background-color: #482880;
+    color: #fff;
+    font-size: 130%;
+    font-weight: bold;
+    text-align: center;
+}
+
+.grid li:nth-child(odd) {
+    background-color: #1769aa;
+}
+
+.item-1 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.item-2 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.item-3 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.item-4 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+.item-5 {
+    grid-column-start: 1;
+    grid-row-start: 3;
+}
+
+.item-6 {
+    grid-column-start: 2;
+    grid-row-start: 3;
+} */
+
+/* .grid {
+    display: grid;
+    grid-template-areas:
+        "header header header"
+        "menu main aside"
+        "menu footer footer";
+    grid-template-columns: 1fr 2fr 2fr;
+    grid-template-columns: minmax(20px, 150px);
+    gap: 10px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #0d233d;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.3rem;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 130%;
+    font-weight: bold;
+}
+
+.item-1 {
+    grid-area: header;
+    background-color: #aa2f26;
+}
+
+.item-2 {
+    grid-area: menu;
+    background-color: #b2a429;
+}
+
+.item-3 {
+    grid-area: main;
+    background-color: #1769aa;
+}
+
+.item-4 {
+    grid-area: aside;
+    background-color: #01796f;
+}
+
+.item-5 {
+    grid-area: footer;
+    background-color: #482880;
+} */
+
+body {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto 350px auto;
+    background-color: #0d233d;
+    gap: 10px;
+}
+
+body > * {
+    border-radius: 10px;
+    padding: 10px;
+}
+
+header {
+    grid-column: span 12;
+    display: flex;
+    background-color: #b2392f;
+}
+
+header div:last-child {
+    margin-left: auto;
+}
+
+nav {
+    grid-column: span 2;
+    background-color: #b9ac32;
+}
+
+main {
+    background-color: #1e74b2;
+    grid-column: span 8;
+}
+
+aside {
+    background-color: #02837a;
+    grid-column: span 2;
+}
+
+footer {
+    background-color: #53318a;
+    grid-column: span 12;
+}
+
+/* header {
+    padding: 10px;
+    background-color: #0d233d;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
+header div {
+    margin: 0 20px;
+    padding: 10px 0;
+}
+
+header div:last-child {
+    grid-column:10 ;
+} */
